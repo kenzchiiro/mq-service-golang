@@ -2,12 +2,14 @@
 
 This tutorial is more aimed at those who just want to understand how to working with a message broker in Go.
 
-👉 The full article is published on **March 31, 2021**, on Dev.to: https://dev.to/koddr/working-with-rabbitmq-in-golang-by-examples-2dcn
-
 ## Quick start
 
 1. Install [Docker](https://www.docker.com/get-started), Docker Compose and start their system services.
-2. Run containers with the RabbitMQ, [Fiber](https://github.com/gofiber/fiber) and consumer by this command:
+```
+docker run --rm -it --hostname rabbitMQ -p 15672:15672 -p 5672:5672 rabbitmq:3-management
+```
+
+3. Run containers with the RabbitMQ, [Fiber](https://github.com/gofiber/fiber) and consumer by this command:
 
 ```bash
 make run
