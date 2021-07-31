@@ -1,4 +1,4 @@
-# 📖 Tutorial: Working with RabbitMQ in Golang by examples
+# 📖 RabbitMQ in Golang by examples
 
 This tutorial is more aimed at those who just want to understand how to working with a message broker in Go.
 
